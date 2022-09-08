@@ -1,0 +1,40 @@
+thistuple = ('satu','dua',3,4,True,False,'lima','enam',7,8)
+
+#tuples(print variable)
+print(thistuple)
+
+#one item
+print(thistuple[3])
+
+#data type
+print(type(thistuple))
+
+#tuple item 3
+print(thistuple)
+
+#tuple with diferent type
+tupleini = ('Apel','Belimbing',4,16,False)
+print(tupleini)
+
+#tuple constructor
+inituple = tuple(('Apple','Banana','Cherry'))
+print(inituple)
+
+#Access tuple item
+print(thistuple[4])
+
+#Access tuple item with negative
+print(thistuple[-3])
+
+#tuple with range
+print(thistuple[2:4])
+print(thistuple[:5])
+print(thistuple[3:])
+print(thistuple[-4:-1])
+
+#tuple with conditional statement
+if 3 in thistuple:
+    print('yes, number 3 in thistuple')
+
+
+
